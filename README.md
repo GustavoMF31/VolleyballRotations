@@ -1,16 +1,31 @@
-# volleyball_rotations
+# Volleyball Rotations
 
-A new Flutter project.
+A cool app I made to help me and my friends learn the 5-1 rotation system for volleyball. Check out the screenshot:
 
-## Getting Started
+<img src="images/default_position.jpg" alt="Default position" width="800"/>
 
-This project is a starting point for a Flutter application.
+You can drag the players around to place them and also draw on the court:
 
-A few resources to get you started if this is your first Flutter project:
+<img src="images/arrow.jpg" alt="Positioned players with an arrow" width="800"/>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The letters stand for the player positions in portuguese (because that's the language we speak):
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- L - Levantador (Setter)
+- Li - Líbero (Libero)
+- P - Ponteiro (Outside hitter)
+- M - Meio (Middle blocker)
+- O - Oposto (Opposite hitter)
+
+## Button functionality
+
+- The X clears the drawings
+- The clockwise arrow rotates the players positions clockwise
+- The counterclockwise arrow rotates the players positions counterclockwise
+- The arrow with a dot on it resets the positions to the default positions
+- The play button puts the players in the correct places for 5-1 serve receive (at least the 5-1 that we use)
+
+The last one, the checkmark, is one of the best features for learning 5-1. It activates and deactivates the automatic checking of positional faults. When it's on and two players are out of place, they are highlighted red:
+
+<img src="images/rotation_error.jpg" alt="Positioned players with an arrow" width="800"/>
+
+The project is made using Flutter and Dart. That means it works both on Android and IOS devices.
