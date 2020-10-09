@@ -1,5 +1,7 @@
 # Volleyball Rotations
 
+[README em português](README.pt-br.md)
+
 A cool app I made to help me and my friends learn the 5-1 rotation system for volleyball. Check out the screenshot:
 
 <img src="images/default_position.jpg" alt="Default position" width="800"/>
